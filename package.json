@@ -1,0 +1,14 @@
+{
+  "name": "webview-simple",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ./ webview-simple --platform=win32 --arch=x64 --app-version=1.4.3 version=17.0.0 --out=dist --overwrite"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^17.0.0",
+    "electron-packager": "^15.4.0"
+  }
+}
